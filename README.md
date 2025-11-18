@@ -15,7 +15,7 @@ You can make your account in any way that works for you, but here’s a simple m
 - Choose a non-identifying username in the format `{favorite_fruit}-{favorite_animal}` (example: `mango-otter`).
 - Do not include personal details (name, photo, location) and use this account only for study-related work.
 
-> Once you're finished, update your [completion status](https://forms.gle/SLXdJk3SbjHCYnpd9) and continue onto the the next step.
+> Once you're finished, update your [status](https://forms.gle/SLXdJk3SbjHCYnpd9) and continue onto the the next step.
 
 ## 2) Install AI Coding Tools
 
@@ -39,7 +39,7 @@ To set up Claude Code, follow the instructions provided [here](https://docs.goog
 - Quickstart: `tools/claude_code/claude_onboarding.md`
 - Setup reference: `tools/claude_code/claude_setup.pdf`
 
-> Reminder to update your [completion status](https://forms.gle/SLXdJk3SbjHCYnpd9) once you have completed this step.
+> Reminder to update your [status](https://forms.gle/SLXdJk3SbjHCYnpd9) once you have completed this step.
 
 ## 3) Set Up Screen Recording Tool
 
@@ -75,7 +75,7 @@ Install both components following the SpecStory installation guide ([Google Doc]
 
 Verify that SpecStory is logging correctly by running a short AI interaction and then checking the .specstory/history/ folder for a newly created Markdown file. Open the file to confirm that it contains the recent requests and responses from your interaction.
 
-> Reminder to update your [completion status](https://forms.gle/SLXdJk3SbjHCYnpd9) once you have completed this step.
+> Reminder to update your [status](https://forms.gle/SLXdJk3SbjHCYnpd9) once you have completed this step.
 
 ## 5) Practice Tasks
 
@@ -97,6 +97,10 @@ Git hooks will catch common markers, but please double-check your changes before
 
 ### Completion
 
-Once you have completed the practice tasks, please submit the following your
-# onboarding
-# onboarding
+Once you have completed the practice tasks, please submit the [onboarding form] (https://forms.gle/SLXdJk3SbjHCYnpd9) with the following artifacts:
+
+- A zipped copy of your `.specstory folder` from this repo
+- A zipped copy of the `/data` folder from your screen recorder directory
+- A link to your forked repository with all changes committed and pushed.
+
+Once we receive your submission, we’ll know you’re ready for the main study and follow up with next steps. Thank you for your participation!
