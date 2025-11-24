@@ -90,7 +90,7 @@ Run the following from the repository root (install `pre-commit` first if you do
 ```bash
 pip install pre-commit            # or use pipx/brew as you prefer
 # ensure the guard script is executable (only needed once per clone)
-chmod +x .config/ai-hooks/ai_guard.py
+chmod +x .config/git-hooks/ai_guard.py
 pre-commit install
 ```
 
