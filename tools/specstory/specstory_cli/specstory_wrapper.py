@@ -311,9 +311,27 @@ def stop_watcher():
         os.remove(pidfile)
 
 
+def print_specstory_banner():
+    """Print a banner indicating specstory recording is active."""
+    # ANSI color codes
+    CYAN = "\033[96m"
+    GREEN = "\033[92m"
+    RESET = "\033[0m"
+    BOLD = "\033[1m"
+    
+    print(f"{CYAN}╭{'─' * 50}╮{RESET}")
+    print(f"{CYAN}│{RESET} {GREEN}{BOLD}📝 SpecStory Recording Active{RESET}{'':>20}{CYAN}│{RESET}")
+    print(f"{CYAN}│{RESET}    Session will be logged to .specstory/{'':>9}{CYAN}│{RESET}")
+    print(f"{CYAN}╰{'─' * 50}╯{RESET}")
+    print()
+
+
 def main():
     """Entry point: start watcher, run real tool, then merge timestamps."""
     os.makedirs(TS_DIR, exist_ok=True)
+
+    # Show indicator that specstory is active
+    print_specstory_banner()
 
     # Do not kill other watchers at startup to avoid stopping active sessions
 
