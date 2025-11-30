@@ -34,6 +34,10 @@ A visual walkthrough for the setup process is available [here](https://docs.goog
 
 Because screen recordings can take up a lot of storage (~300 mb per hour), we provide the option for your to upload recordings directly to your Google Drive. You can find the setup instructions [here](https://docs.google.com/document/d/1kcVAi28N4hAu_FuuRBffViv0rwcA2tny7jCBvH-0zyI/edit?tab=t.cqbysjja5sff).
 
+### Verification
+
+After you run a quick test of the recorder, confirm that the artifacts were written to disk. Open the `swe-prod-recorder/.data/` directory and you should see per-session folders containing timestamped screenshots, keyboard actions, and mouse-movement traces.
+
 > Reminder to update your [completion status](https://forms.gle/SLXdJk3SbjHCYnpd9) once you have completed this step.
 
 ## 3) Install AI Coding Tools
@@ -77,7 +81,18 @@ Install both components following the SpecStory installation guide ([Google Doc]
 
 ### Verification
 
-Verify that SpecStory is logging correctly by running a short AI interaction and then checking the .specstory/history/ folder for a newly created Markdown file. Open the file to confirm that it contains the recent requests and responses from your interaction along with event timestamps.
+Verify that SpecStory is logging correctly by running a short AI interaction and then checking the `.specstory/history/` folder for a newly created Markdown file. The `.specstory` folder will appear in the **same directory** where you interacted with the AI tools.
+
+Open the file to confirm that it contains the recent requests and responses from your interaction along with event timestamps.
+
+When your SpecStory CLI tool is running (with Claude), you should see a banner like this:
+
+```
+╭──────────────────────────────────────────────────╮
+│ 📝 SpecStory Recording Active                    │
+│    Session will be logged to .specstory/         │
+╰──────────────────────────────────────────────────╯
+```
 
 > Reminder to update your [status](https://forms.gle/SLXdJk3SbjHCYnpd9) once you have completed this step.
 
