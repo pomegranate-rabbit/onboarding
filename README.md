@@ -23,6 +23,8 @@ For this study, we’ll be using a custom screen recorder to capture your coding
 
 Please create a conda environment to set up the recording tool. This should be the same conda environment you use for setting up SpecStory.
 
+When running the screen recorder for onboarding, please use `--pr 0` to keep those recordings organized under `data/pr_0/`
+
 ### Installation
 
 Please install and run the recorder from the following repository:
