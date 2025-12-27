@@ -4,7 +4,8 @@
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "convert": "./bin/cli.js"
+    "convert": "./bin/cli.js",
+    "compare": "./bin/compare.js"
   },
   "scripts": {
     "test": "node --test"
